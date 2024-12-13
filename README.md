@@ -41,25 +41,43 @@ Materials and components used are listed and linked below.
 
 ### Main Body
 
-1. [3D printing filament x 1 kg](https://www.amazon.com/dp/B089S1HB8K)
-2. [Metric Nuts and Bolts](https://www.amazon.com/Assortment-M2-M3-M4-M5/dp/B0CBMMPPKF)
-3. [Metric Locknuts](https://www.amazon.com/dp/B0CHVTYLWC)
-4. [Thrust Bearings](https://www.amazon.com/gp/product/B08FHTD8VT)
-5. [Ball joint rod end](https://www.amazon.com/gp/product/B0828T1NNW)
-6. [M4 threaded rod](https://www.amazon.com/gp/product/B01MAYQ12S)
+| Part | Price | 
+|------|-------|
+| 1. [3D printing filament x 1 kg](https://www.amazon.com/dp/B089S1HB8K) | $20 |
+| 2. [Metric Nuts and Bolts](https://www.amazon.com/Assortment-M2-M3-M4-M5/dp/B0CBMMPPKF) | $22 |
+| 3. [Metric Locknuts](https://www.amazon.com/dp/B0CHVTYLWC) | $10 |
+| 4. [Thrust Bearings](https://www.amazon.com/gp/product/B08FHTD8VT) | $10 |
+| 5. [Ball joint rod end](https://www.amazon.com/gp/product/B0828T1NNW) | $10 |
+| 6. [M4 threaded rod](https://www.amazon.com/gp/product/B01MAYQ12S) | $10 |
+| **Total** | **$80** |
 
 ### Electronics
 
-1. [Raspberry Pi 4](https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X)
-2. [PCA9685 Servo Driver Board](https://www.amazon.com/gp/product/B07BRS249H)
-3. [40 kg Hobby Servos x 8](https://www.amazon.com/Servo-Torque-Waterproof-Degree-Compatible/dp/B0C95YMMQS)
-4. [80 kg Hobby Servos x 2](https://www.amazon.com/GoolRC-Digital-Torque-Waterproof-Replacements/dp/B0B5H4MWZG/ref=sr_1_2?crid=1JM9GBMY97KTM&keywords=80%2Bkg%2Bservo&qid=1705472455&sprefix=80%2Bkg%2Bservo%2Caps%2C98&sr=8-2&th=1)
-5. [MPU6050 IMU](https://www.amazon.com/Acceleration-Sensors-Accelerometer-Three-Axis-Quadcopter/dp/B07V67DQ5N)
-6. [ADS1115 ADC](https://www.amazon.com/gp/product/B07VPFLSMX)
-7. [Jumper Wires](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78)
-8. [Power DIY Connector](https://www.amazon.com/dp/B09S3S6RYC)
-9. [USB C Connector](https://www.amazon.com/dp/B0CCJRWKC5)
-10. [4 to 1 Wire Connector](https://www.amazon.com/dp/B0B28GNVGZ)
+| Part | Price |
+| ---- | ----- |
+| 1. [PCA9685 Servo Driver Board](https://www.amazon.com/gp/product/B07BRS249H) | $14 |
+| 2. [40 kg Hobby Servos x 8](https://www.amazon.com/Servo-Torque-Waterproof-Degree-Compatible/dp/B0C95YMMQS) | $170 |
+| 3. [80 kg Hobby Servos x 2](https://www.amazon.com/GoolRC-Digital-Torque-Waterproof-Replacements/dp/B0B5H4MWZG/ref=sr_1_2?crid=1JM9GBMY97KTM&keywords=80%2Bkg%2Bservo&qid=1705472455&sprefix=80%2Bkg%2Bservo%2Caps%2C98&sr=8-2&th=1) | $75 |
+| 4. [MPU6050 IMU](https://www.amazon.com/Acceleration-Sensors-Accelerometer-Three-Axis-Quadcopter/dp/B07V67DQ5N) | $30 |
+| 5. [ADS1115 ADC](https://www.amazon.com/gp/product/B07VPFLSMX) | $16|
+| 6. [Jumper Wires](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78) | $7 |
+| 7. [Power DIY Connector](https://www.amazon.com/dp/B09S3S6RYC) | $4 |
+| 8. [USB C Connector](https://www.amazon.com/dp/B0CCJRWKC5) | $25 |
+| 9. [4 to 1 Wire Connector](https://www.amazon.com/dp/B0B28GNVGZ) | $12 |
+| **Total** | **$353** |
+
+### Compute
+| Part | Price |
+| ---- | ----- |
+| 1. [Jetson Orin 8GB](https://category.yahboom.net/collections/j-jetson-board/products/jetson-orin-nx?variant=45177042796860) | $810 |
+
+## Sensors
+| Part | Price |
+| ---- | ----- |
+| 1. [Oak-D Light Depth Camera](https://shop.luxonis.com/products/oak-d-lite-1) | $149 |
+| 2. [D435 Depth Camera](https://www.amazon.com/Intel-Depth-Camera-D435-Tracking/dp/B07B43WP7V) | $0 |
+| 3. [T-MINI-Plus Lidar TOF](https://www.amazon.com/dp/B0CCJRWKC5) | $79 |
+| 4. [Logitech F710 Controller](https://www.amazon.com/Logitech-940-000117-Gamepad-F710/dp/B0041RR0TW) | $40 |
 
 ## Assembly Instruction
 
