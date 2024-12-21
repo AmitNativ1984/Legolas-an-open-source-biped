@@ -53,11 +53,11 @@ Materials and components used are listed and linked below.
 
 ### Electronics
 
-| Part | Price |
-| ---- | ----- |
-| 1. [PCA9685 Servo Driver Board](https://www.amazon.com/gp/product/B07BRS249H) | $14 |
-| 2. [40 kg Hobby Servos x 8](https://www.amazon.com/Servo-Torque-Waterproof-Degree-Compatible/dp/B0C95YMMQS) | $170 |
-| 3. [80 kg Hobby Servos x 2](https://www.amazon.com/GoolRC-Digital-Torque-Waterproof-Replacements/dp/B0B5H4MWZG/ref=sr_1_2?crid=1JM9GBMY97KTM&keywords=80%2Bkg%2Bservo&qid=1705472455&sprefix=80%2Bkg%2Bservo%2Caps%2C98&sr=8-2&th=1) | $75 |
+| Part | Price | Purchased |
+| ---- | ----- | --------- |
+| 1. [PCA9685 Servo Driver Board](https://www.amazon.com/gp/product/B07BRS249H) | $14 | :white_check_mark: |
+| 2. [40 kg Hobby Servos x 8](https://www.amazon.com/Servo-Torque-Waterproof-Degree-Compatible/dp/B0C95YMMQS) | $204 | :white_check_mark: |
+| 3. [80 kg Hobby Servos x 2](https://www.amazon.com/GoolRC-Digital-Torque-Waterproof-Replacements/dp/B0B5H4MWZG/ref=sr_1_2?crid=1JM9GBMY97KTM&keywords=80%2Bkg%2Bservo&qid=1705472455&sprefix=80%2Bkg%2Bservo%2Caps%2C98&sr=8-2&th=1) | $86 | :white_check_mark: |
 | 4. [MPU6050 IMU](https://www.amazon.com/Acceleration-Sensors-Accelerometer-Three-Axis-Quadcopter/dp/B07V67DQ5N) | $30 |
 | 5. [ADS1115 ADC](https://www.amazon.com/gp/product/B07VPFLSMX) | $16|
 | 6. [Jumper Wires](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78) | $7 |
@@ -67,9 +67,13 @@ Materials and components used are listed and linked below.
 | **Total** | **$353** |
 
 ### Compute
-| Part | Price |
-| ---- | ----- |
-| 1. [Jetson Orin 8GB](https://category.yahboom.net/collections/j-jetson-board/products/jetson-orin-nx?variant=45177042796860) | $810 |
+| Part | Price | Purchased |
+| ---- | ----- | --------- |
+| 1. [jetson orin nano super developer kit](https://crg.co.il/product/nvidia-jetson-orin-nano-8gb-development-kit/) | $269 | :white_check_mark: |
+| 2. Shipping | $13 | :white_check_mark: | 
+| 3. VAT | $48 | :white_check_mark: | 
+| **Total** | **$330** |
+
 
 ## Sensors
 | Part | Price |
@@ -78,6 +82,8 @@ Materials and components used are listed and linked below.
 | 2. [D435 Depth Camera](https://www.amazon.com/Intel-Depth-Camera-D435-Tracking/dp/B07B43WP7V) | $0 |
 | 3. [T-MINI-Plus Lidar TOF](https://www.amazon.com/dp/B0CCJRWKC5) | $79 |
 | 4. [Logitech F710 Controller](https://www.amazon.com/Logitech-940-000117-Gamepad-F710/dp/B0041RR0TW) | $40 |
+
+
 
 ## Assembly Instruction
 
