@@ -41,8 +41,8 @@ Materials and components used are listed and linked below.
 
 ### Main Body
 
-| Part | Price | 
-|------|-------|
+| Part | Price | Purchased |
+|------|-------| --------- |
 | 1. [3D printing filament x 1 kg](https://www.amazon.com/dp/B089S1HB8K) | $20 |
 | 2. [Metric Nuts and Bolts](https://www.amazon.com/Assortment-M2-M3-M4-M5/dp/B0CBMMPPKF) | $22 |
 | 3. [Metric Locknuts](https://www.amazon.com/dp/B0CHVTYLWC) | $10 |
@@ -58,13 +58,14 @@ Materials and components used are listed and linked below.
 | 1. [PCA9685 Servo Driver Board](https://www.amazon.com/gp/product/B07BRS249H) | $14 | :white_check_mark: |
 | 2. [40 kg Hobby Servos x 8](https://www.amazon.com/Servo-Torque-Waterproof-Degree-Compatible/dp/B0C95YMMQS) | $204 | :white_check_mark: |
 | 3. [80 kg Hobby Servos x 2](https://www.amazon.com/GoolRC-Digital-Torque-Waterproof-Replacements/dp/B0B5H4MWZG/ref=sr_1_2?crid=1JM9GBMY97KTM&keywords=80%2Bkg%2Bservo&qid=1705472455&sprefix=80%2Bkg%2Bservo%2Caps%2C98&sr=8-2&th=1) | $86 | :white_check_mark: |
-| 4. [MPU6050 IMU](https://www.amazon.com/Acceleration-Sensors-Accelerometer-Three-Axis-Quadcopter/dp/B07V67DQ5N) | $30 |
-| 5. [ADS1115 ADC](https://www.amazon.com/gp/product/B07VPFLSMX) | $16|
-| 6. [Jumper Wires](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78) | $7 |
+| 4. [MPU6050 IMU](https://www.amazon.com/Acceleration-Sensors-Accelerometer-Three-Axis-Quadcopter/dp/B07V67DQ5N) | $25 | :white_check_mark: | 
+| 5. [ADS1115 ADC](https://www.amazon.com/gp/product/B07VPFLSMX) | $16 |  :white_check_mark: |
+| 6. [Jumper Wires](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78) | $7 | :white_check_mark: |
 | 7. [Power DIY Connector](https://www.amazon.com/dp/B09S3S6RYC) | $4 |
-| 8. [USB C Connector](https://www.amazon.com/dp/B0CCJRWKC5) | $25 |
+| 8. [USB C Connector](https://www.amazon.com/gp/product/B0CN64BR49/ref=ox_sc_act_title_1?smid=AJAM3W8TYBUO0&psc=1) | $15 |
 | 9. [4 to 1 Wire Connector](https://www.amazon.com/dp/B0B28GNVGZ) | $12 |
-| **Total** | **$353** |
+| 10. shipping | $18 | :white_check_mark: |
+| **Total** | **$396** |
 
 ### Compute
 | Part | Price | Purchased |
@@ -76,10 +77,10 @@ Materials and components used are listed and linked below.
 
 
 ## Sensors
-| Part | Price |
-| ---- | ----- |
+| Part | Price | Purchased |
+| ---- | ----- | --------- |
 | 1. [Oak-D Light Depth Camera](https://shop.luxonis.com/products/oak-d-lite-1) | $149 |
-| 2. [D435 Depth Camera](https://www.amazon.com/Intel-Depth-Camera-D435-Tracking/dp/B07B43WP7V) | $0 |
+| 2. [D435 Depth Camera](https://www.amazon.com/Intel-Depth-Camera-D435-Tracking/dp/B07B43WP7V) | $0 | :white_check_mark: |
 | 3. [T-MINI-Plus Lidar TOF](https://www.amazon.com/dp/B0CCJRWKC5) | $79 |
 | 4. [Logitech F710 Controller](https://www.amazon.com/Logitech-940-000117-Gamepad-F710/dp/B0041RR0TW) | $40 |
 
