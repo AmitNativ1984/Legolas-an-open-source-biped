@@ -62,7 +62,7 @@ Materials and components used are listed and linked below.
 | 5. [ADS1115 ADC](https://www.amazon.com/gp/product/B07VPFLSMX) | $16 |  :white_check_mark: |
 | 6. [Jumper Wires](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78) | $7 | :white_check_mark: |
 | 7. [Power DIY Connector](https://www.amazon.com/dp/B09S3S6RYC) | $4 |
-| 8. [USB C Connector](https://www.amazon.com/gp/product/B0CN64BR49/ref=ox_sc_act_title_1?smid=AJAM3W8TYBUO0&psc=1) | $15 |
+| 8. [USB C Connector](https://www.amazon.com/gp/product/B0CN64BR49/ref=ox_sc_act_title_1?smid=AJAM3W8TYBUO0&psc=1) | $15 | :white_check_mark: |
 | 9. [4 to 1 Wire Connector](https://www.amazon.com/dp/B0B28GNVGZ) | $12 |
 | 10. shipping | $18 | :white_check_mark: |
 | **Total** | **$396** |
