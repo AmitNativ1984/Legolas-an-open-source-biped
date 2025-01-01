@@ -64,15 +64,15 @@ Materials and components used are listed and linked below.
 | 7. [Power DIY Connector](https://www.amazon.com/dp/B09S3S6RYC) | $2 | :white_check_mark: |
 | 8. [USB C Connector](https://www.amazon.com/gp/product/B0CN64BR49/ref=ox_sc_act_title_1?smid=AJAM3W8TYBUO0&psc=1) | $15 | :white_check_mark: |
 | 9. [4 to 1 Wire Connector](https://www.amazon.com/dp/B0B28GNVGZ) | $2 | :white_check_mark: |
-| 10. shipping | $18 | :white_check_mark: |
+| 10. shipping | $18 | :white_check_mark: | :ballot_box_with_check: |
 | **Total** | **$389** |
 
 ### Compute
 | Part | Price | Purchased | Delivered |
 | ---- | ----- | --------- | --------- |
 | 1. [jetson orin nano super developer kit](https://crg.co.il/product/nvidia-jetson-orin-nano-8gb-development-kit/) | $269 | :white_check_mark: | :white_check_mark:
-| 2. Shipping | $13 | :white_check_mark: | 
-| 3. VAT | $48 | :white_check_mark: | 
+| 2. Shipping | $13 | :white_check_mark: | :ballot_box_with_check: |
+| 3. VAT | $48 | :white_check_mark: | :ballot_box_with_check: |
 | **Total** | **$330** |
 
 
