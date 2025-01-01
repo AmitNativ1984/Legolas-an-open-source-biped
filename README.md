@@ -53,12 +53,12 @@ Materials and components used are listed and linked below.
 
 ### Electronics
 
-| Part | Price | Purchased |
-| ---- | ----- | --------- |
-| 1. [PCA9685 Servo Driver Board](https://www.amazon.com/gp/product/B07BRS249H) | $14 | :white_check_mark: |
-| 2. [40 kg Hobby Servos x 8](https://www.amazon.com/Servo-Torque-Waterproof-Degree-Compatible/dp/B0C95YMMQS) | $204 | :white_check_mark: |
+| Part | Price | Purchased | Delivered |
+| ---- | ----- | --------- | --------- |
+| 1. [PCA9685 Servo Driver Board](https://www.amazon.com/gp/product/B07BRS249H) | $14 | :white_check_mark: | :white_check_mark: |
+| 2. [40 kg Hobby Servos x 8](https://www.amazon.com/Servo-Torque-Waterproof-Degree-Compatible/dp/B0C95YMMQS) | $204 | :white_check_mark: | :white_check_mark: |
 | 3. [80 kg Hobby Servos x 2](https://www.amazon.com/GoolRC-Digital-Torque-Waterproof-Replacements/dp/B0B5H4MWZG/ref=sr_1_2?crid=1JM9GBMY97KTM&keywords=80%2Bkg%2Bservo&qid=1705472455&sprefix=80%2Bkg%2Bservo%2Caps%2C98&sr=8-2&th=1) | $86 | :white_check_mark: |
-| 4. [MPU6050 IMU](https://www.amazon.com/Acceleration-Sensors-Accelerometer-Three-Axis-Quadcopter/dp/B07V67DQ5N) | $25 | :white_check_mark: | 
+| 4. [MPU9255 IMU](https://www.amazon.com/-/he/dp/B0D4VYR8KF?ref=ppx_yo2ov_dt_b_fed_asin_title) | $25 | :white_check_mark: | :white_check_mark: |
 | 5. [ADS1115 ADC](https://www.amazon.com/gp/product/B07VPFLSMX) | $16 |  :white_check_mark: |
 | 6. [Jumper Wires](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78) | $7 | :white_check_mark: |
 | 7. [Power DIY Connector](https://www.amazon.com/dp/B09S3S6RYC) | $2 | :white_check_mark: |
@@ -68,9 +68,9 @@ Materials and components used are listed and linked below.
 | **Total** | **$389** |
 
 ### Compute
-| Part | Price | Purchased |
-| ---- | ----- | --------- |
-| 1. [jetson orin nano super developer kit](https://crg.co.il/product/nvidia-jetson-orin-nano-8gb-development-kit/) | $269 | :white_check_mark: |
+| Part | Price | Purchased | Delivered |
+| ---- | ----- | --------- | --------- |
+| 1. [jetson orin nano super developer kit](https://crg.co.il/product/nvidia-jetson-orin-nano-8gb-development-kit/) | $269 | :white_check_mark: | :white_check_mark:
 | 2. Shipping | $13 | :white_check_mark: | 
 | 3. VAT | $48 | :white_check_mark: | 
 | **Total** | **$330** |
