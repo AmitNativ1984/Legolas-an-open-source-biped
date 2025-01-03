@@ -41,14 +41,14 @@ Materials and components used are listed and linked below.
 
 ### Main Body
 
-| Part | Price | Purchased |
-|------|-------| --------- |
-| 1. [3D printing filament x 1 kg](https://www.amazon.com/dp/B089S1HB8K) | -- | :white_check_mark:
-| 2. [Metric Nuts and Bolts](https://www.amazon.com/Assortment-M2-M3-M4-M5/dp/B0CBMMPPKF) | $12 | :white_check_mark: |
-| 3. [Metric Locknuts](https://www.amazon.com/dp/B0CHVTYLWC) | $7 | :white_check_mark: |
-| 4. [Thrust Bearings](https://www.amazon.com/gp/product/B08FHTD8VT) | $3 | :white_check_mark: |
-| 5. [Ball joint rod end](https://www.amazon.com/gp/product/B0828T1NNW) | $5 | :white_check_mark: |
-| 6. [M4 threaded rod](https://www.amazon.com/gp/product/B01MAYQ12S) | $3 | :white_check_mark: |
+| Part | Price | Purchased | Delivered |
+|------|-------| --------- | --------- |
+| 1. [3D printing filament x 1 kg](https://www.amazon.com/dp/B089S1HB8K) | -- | :white_check_mark: | :white_check_mark: |
+| 2. [Metric Nuts and Bolts](https://www.amazon.com/Assortment-M2-M3-M4-M5/dp/B0CBMMPPKF) | $12 | :white_check_mark: | :white_check_mark: |
+| 3. [Metric Locknuts](https://www.amazon.com/dp/B0CHVTYLWC) | $7 | :white_check_mark: | :white_check_mark: |
+| 4. [Thrust Bearings](https://www.amazon.com/gp/product/B08FHTD8VT) | $3 | :white_check_mark: | :white_check_mark: |
+| 5. [Ball joint rod end](https://www.amazon.com/gp/product/B0828T1NNW) | $5 | :white_check_mark: | :white_check_mark: |
+| 6. [M4 threaded rod](https://www.amazon.com/gp/product/B01MAYQ12S) | $3 | :white_check_mark: | :white_check_mark: |
 | **Total** | **$30** |
 
 ### Electronics
@@ -61,9 +61,9 @@ Materials and components used are listed and linked below.
 | 4. [MPU9255 IMU](https://www.amazon.com/-/he/dp/B0D4VYR8KF?ref=ppx_yo2ov_dt_b_fed_asin_title) | $25 | :white_check_mark: | :white_check_mark: |
 | 5. [ADS1115 ADC](https://www.amazon.com/gp/product/B07VPFLSMX) | $16 | :white_check_mark: | :white_check_mark: |
 | 6. [Jumper Wires](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78) | $7 | :white_check_mark: | :white_check_mark: |
-| 7. [Power DIY Connector](https://www.amazon.com/dp/B09S3S6RYC) | $2 | :white_check_mark: |
+| 7. [Power DIY Connector](https://www.amazon.com/dp/B09S3S6RYC) | $2 | :white_check_mark: | :white_check_mark: |
 | 8. [USB C Connector](https://www.amazon.com/gp/product/B0CN64BR49/ref=ox_sc_act_title_1?smid=AJAM3W8TYBUO0&psc=1) | $15 | :white_check_mark: | :white_check_mark: |
-| 9. [4 to 1 Wire Connector](https://www.amazon.com/dp/B0B28GNVGZ) | $2 | :white_check_mark: |
+| 9. [4 to 1 Wire Connector](https://www.amazon.com/dp/B0B28GNVGZ) | $2 | :white_check_mark: | :white_check_mark: |
 | 10. shipping | $18 | :white_check_mark: | :ballot_box_with_check: |
 | **Total** | **$389** |
 
