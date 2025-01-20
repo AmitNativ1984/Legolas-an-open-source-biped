@@ -74,31 +74,31 @@ Pinout Table
     - Create a Python script to control the servos. Below is an example script:
     
 .. code-block:: python
-      import time
-      from board import SCL, SDA
-      import busio
-      from adafruit_pca9685 import PCA9685
-      from adafruit_motor import servo
-
-      # Create the I2C bus interface
-      i2c_bus = busio.I2C(SCL, SDA)
-
-      # Create a simple PCA9685 class instance
-      pca = PCA9685(i2c_bus)
-      pca.frequency = 50
-
-      # Create a servo object for each servo
-      servo0 = servo.Servo(pca.channels[0])
-      servo1 = servo.Servo(pca.channels[1])
-
-      # Move servos to different angles
-      servo0.angle = 90
-      time.sleep(1)
-      servo1.angle = 45
-      time.sleep(1)
-
-      # Cleanup
-      pca.deinit()
+    import time
+    from board import SCL, SDA
+    import busio
+    from adafruit_pca9685 import PCA9685
+    from adafruit_motor import servo
+ 
+    # Create the I2C bus interface
+    i2c_bus = busio.I2C(SCL, SDA)
+ 
+    # Create a simple PCA9685 class instance
+    pca = PCA9685(i2c_bus)
+    pca.frequency = 50
+ 
+    # Create a servo object for each servo
+    servo0 = servo.Servo(pca.channels[0])
+    servo1 = servo.Servo(pca.channels[1])
+ 
+    # Move servos to different angles
+    servo0.angle = 90
+    time.sleep(1)
+    servo1.angle = 45
+    time.sleep(1)
+ 
+    # Cleanup
+    pca.deinit()
 
 
 By following these steps, you should be able to successfully connect and control servo motors using the PCA9685 PWM driver with your Jetson Orin Nano Dev Kit.
