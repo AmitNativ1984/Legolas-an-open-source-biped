@@ -67,9 +67,9 @@ Pinout Table
 
 3. **Install Required Libraries:**
     - Install the Adafruit PCA9685 library on the Jetson Orin Nano using pip:
-      ```
-      pip install adafruit-circuitpython-pca9685
-      ```
+      
+      .. code-block:: bash
+          pip install adafruit-circuitpython-pca9685
 
 4. **Write and Run the Control Script:**
     - Create a Python script to control the servos. Below is an example script, that will control two servos connected to channes 0 and 1 of the PCA9685 board.
