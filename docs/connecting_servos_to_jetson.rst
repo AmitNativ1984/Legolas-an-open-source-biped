@@ -73,7 +73,7 @@ Pinout Table
 4. **Write and Run the Control Script:**
     - Create a Python script to control the servos. Below is an example script:
     
-.. code-block:: python
+.. code-block:: Python
     import time
     from board import SCL, SDA
     import busio
