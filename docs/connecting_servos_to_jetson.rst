@@ -38,12 +38,7 @@ For example, if you want to control a servo motor connected to channel 0, you wo
 
 In the provided Python script, the `servo.Servo(pca.channels[0])` line creates a servo object for the servo motor connected to channel 0, and `servo.Servo(pca.channels[1])` creates a servo object for the servo motor connected to channel 1. You can create servo objects for other channels in a similar manner by specifying the appropriate channel number.
 
-We cant connect up to 16 servos to the PCA9685 board, and control them independently.
-
-.. image:: https://developer.download.nvidia.com/embedded/images/jetsonOrinNano/user_guide/images/jonano_cbspec_figure_3-1_white-bg.png
-   :alt: Jetson Orin Nano 40 Pin Expansion Header
-   :align: center
-
+We can connect up to 12 servos to the PCA9685 board, and control them independently.
 Here are the connections between the dev kit, and the PCA9685:
 
 Pinout Table
@@ -64,6 +59,10 @@ Pinout Table
 | V+          | External Servo power pin (5V-6V)                          | 2 (Main 5.0V supply)                       |
 +-------------+-----------------------------------------------------------+--------------------------------------------+
 
+
+.. image:: https://developer.download.nvidia.com/embedded/images/jetsonOrinNano/user_guide/images/jonano_cbspec_figure_3-1_white-bg.png
+   :alt: Jetson Orin Nano 40 Pin Expansion Header
+   :align: center
 
 3. **Install Required Libraries:**
     - Install the Adafruit PCA9685 library on the Jetson Orin Nano using pip:
