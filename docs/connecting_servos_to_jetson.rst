@@ -63,6 +63,7 @@ Pinout Table
 .. image:: https://developer.download.nvidia.com/embedded/images/jetsonOrinNano/user_guide/images/jonano_cbspec_figure_3-1_white-bg.png
    :alt: Jetson Orin Nano 40 Pin Expansion Header
    :align: center
+   :height: 600
 
 3. **Install Required Libraries:**
     - Install the Adafruit PCA9685 library on the Jetson Orin Nano using pip:
