@@ -30,7 +30,8 @@
 		"DISPLAY": "${localEnv:DISPLAY}", // for GUI applications
 		"SSH_AUTH_SOCK": "/ssh-agent",
         "CYCLONEDDS_URI": "file:///dds_profiles/cyclone/humble_cyclonedds_config.xml",
-        "ROS_DOMAIN_ID": "${localEnv:ROS_DOMAIN_ID}"
+        "ROS_DOMAIN_ID": "${localEnv:ROS_DOMAIN_ID}",
+		"USER": "${localEnv:USER}"
 	},
 	"mounts": [
 		"source=${localEnv:SSH_AUTH_SOCK},target=/ssh-agent,type=bind,consistency=cached",
