@@ -15,20 +15,30 @@ Requirements
 PCA9685 Board
 -------------
 The PCA9685 is a 16-channel, 12-bit PWM driver that can be used to control multiple servo motors with a single I2C interface.
-**PMW** stands for Pulse Width Modulation. The input to a servo motor is a square wave signal with a fixed frequency (typically 50 Hz) and a variable duty cycle. The duty cycle determines the position (angle) of the servo motor.
+**PMW** stands for Pulse Width Modulation. The input to a servo motor is a square wave signal with a fixed frequency (typically 50 Hz) and a variable duty cycle. 
+The duty cycle determines the position (angle) of the servo motor. By changing the duty cycle, the servo motor changes its angular position, as quickly as possible.
+As long as the duty cycle remains constant, the servo motor will maintain its position.
 
 .. image:: https://cdn.getmidnight.com/84f7b02a8128f5f5775611244c24b941/2023/02/ServoGif.gif
    :alt: Servo Motor Animation
    :align: center
+   :width: 400
 
-
-.. image:: /home/amit/DEV/Legolas-an-open-source-biped/assets/PCA9685-16-channel-servo-motor-driver-pinout.jpg
+.. image:: https://mytectutor.com/wp-content/uploads/2021/09/PCA9685-16-channel-servo-motor-driver-pinout.jpg
    :alt: PCA9685 PWM Driver
    :align: center
+   :width: 400
     
-
 The Jetson Orin Nano Dev Kit comes with a 40-Pin Expansion Header (see the `Jetson Orin Nano Pinout <https://developer.download.nvidia.com/assets/embedded/secure/jetson/orin_nano/docs/Jetson-Orin-Nano-DevKit-Carrier-Board-Specification_SP-11324-001_v1.3.pdf?__token__=exp=1737239397~hmac=493f08d5f376e05f129f140493483eb83d5e8ca032cefe7e76faf614999b4b0f&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9>`_ for more details)
-Each pin controls a different function. 
+The output of the Jetson is a digital signal, transmitted over the I2C bus to the PCA9685 board, which then generates the PWM signals to control the servo motors.
+Each servo motor connected to the PCA9685 board is controlled by one of the 16 available channels. 
+The I2C signal sent to the PCA9685 includes the address of the PCA9685 board and the specific channel number to which the servo motor is connected. The PCA9685 then generates the corresponding PWM signal on that channel to control the servo motor.
+
+For example, if you want to control a servo motor connected to channel 0, you would send the I2C signal to the PCA9685 with the address of the board and specify channel 0. Similarly, for a servo motor connected to channel 1, you would specify channel 1 in the I2C signal.
+
+In the provided Python script, the `servo.Servo(pca.channels[0])` line creates a servo object for the servo motor connected to channel 0, and `servo.Servo(pca.channels[1])` creates a servo object for the servo motor connected to channel 1. You can create servo objects for other channels in a similar manner by specifying the appropriate channel number.
+
+We cant connect up to 16 servos to the PCA9685 board, and control them independently.
 
 .. image:: assets/Jetson-orin-nano-40-pin-connections.png
    :alt: Jetson Orin Nano 40 Pin Expansion Header
@@ -54,16 +64,6 @@ Pinout Table
 | V+          | External Servo power pin (5V-6V)                          | 2 (Main 5.0V supply)                       |
 +-------------+-----------------------------------------------------------+--------------------------------------------+
 
-
-
-
-1. **Power the PCA9685 and Servos:**
-    - Connect the V+ pin of the PCA9685 to an external power supply suitable for your servos (typically 5-6V).
-    - Ensure the GND of the external power supply is connected to the GND of the PCA9685.
-
-2. **Connect the Servos to the PCA9685:**
-    - Connect the control wire of each servo to one of the PWM output channels on the PCA9685.
-    - Connect the power and ground wires of the servos to the corresponding V+ and GND pins on the PCA9685.
 
 3. **Install Required Libraries:**
     - Install the Adafruit PCA9685 library on the Jetson Orin Nano using pip:
