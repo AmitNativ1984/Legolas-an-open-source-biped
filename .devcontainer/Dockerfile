@@ -1,5 +1,8 @@
 ARG BASE_IMAGE
-FROM $BASE_IMAGE as base
+FROM $BASE_IMAGE AS base
+
+ARG ROS_DISTRO=humble
+ENV ROS_DISTRO=$ROS_DISTRO
 
 RUN DEBIAN_FRONTEND=noninteractive 
 
@@ -10,6 +13,7 @@ RUN sudo apt-get update && \
     python3-pip \
     python3-argcomplete \
     bash-completion \
+    i2c-tools \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
     
 RUN pip3 install -U \
@@ -21,9 +25,11 @@ RUN sudo apt-get update && \
     ros-dev-tools \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+    
 # Create the user
 # ===================
 ARG USERNAME
+ENV USERNAME=$USERNAME
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
@@ -52,6 +58,6 @@ RUN echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> 
 RUN echo "if [ -f /usr/share/bash-completion/completions/git ]; then source /usr/share/bash-completion/completions/git; fi" >> /home/$USERNAME/.bashrc
    
 USER $USERNAME
-CMD ["/bin/bash"]
+# CMD ["/bin/bash"]
 
 
