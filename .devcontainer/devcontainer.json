@@ -4,14 +4,15 @@
 	"dockerFile": "Dockerfile",
 	"build": {
 		"args": {
-			"BASE_IMAGE": "ros:humble-ros-base",
+			"BASE_IMAGE": "amit-Dell-G15.local:5000/ros2-pytorch:humble-torch2.3.0",
 			"USERNAME": "${localEnv:USER}",
+			"I2C_GID": "116",
 		}
 	},
 	"privileged": true,
 	"runArgs": [
 		"--network=host",
-		"--privileged",
+		// "--privileged",
 		"--cap-add=SYS_PTRACE",
 		"--security-opt=seccomp:unconfined",
 		"--security-opt=apparmor:unconfined",
@@ -20,7 +21,9 @@
 		"--ulimit=memlock=-1",
 		"--ulimit=stack=6710886",
 		"--gpus=all",
-		"--runtime=nvidia"
+		"--runtime=nvidia",
+		"--group-add=116",
+
 
 	],
 	"remoteUser": "${localEnv:USER}",
@@ -34,12 +37,11 @@
 		"USER": "${localEnv:USER}"
 	},
 	"mounts": [
-		"source=${localEnv:SSH_AUTH_SOCK},target=/ssh-agent,type=bind,consistency=cached",
 		"source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind,consistency=cached",
-		"source=/home/${localEnv:USERNAME}/.ssh,target=/home/${localEnv:USERNAME}/.ssh,type=bind,consistency=cached",
-		// "source=/home/${localEnv:USERNAME}/DATA,target=/DATA,type=bind,consistency=cached",
+		"source=/home/${localEnv:USER}/.ssh,target=/home/${localEnv:USER}/.ssh,type=bind,consistency=cached",
+		"source=/home/${localEnv:USER}/DATA,target=/DATA,type=bind,consistency=cached",
         "source=/dev/shm,target=/dev/shm,type=bind",
-		"source=/home/${localEnv:USERNAME}/DEV/dds_profiles/cyclone/humble_cyclonedds_config.xml,target=/dds_profiles/cyclone/humble_cyclonedds_config.xml,type=bind,consistency=cached",
+		"source=/home/${localEnv:USER}/DEV/dds_profiles/cyclone/humble_cyclonedds_config.xml,target=/dds_profiles/cyclone/humble_cyclonedds_config.xml,type=bind,consistency=cached",
 		// "source=/dev/bus/usb,target=/dev/bus/usb,type=bind,consistency=cached"
 	],
 	"postCreateCommand": "sysctl -w net.core.rmem_max=2147483647",
