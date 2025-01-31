@@ -5,3 +5,8 @@ docs/_build/
 docs/build/
 docs/.doctrees/
 docs/_templates/
+
+# ROS related files
+build/
+install/
+log/
