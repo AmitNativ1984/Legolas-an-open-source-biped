@@ -13,16 +13,18 @@ RUN sudo apt-get update && \
     python3-pip \
     python3-argcomplete \
     bash-completion \
-    i2c-tools \
+    i2c-tools \    
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
     
 RUN pip3 install -U \
-    sphinx
+    sphinx \
+    Jetson.GPIO \
+    adafruit-circuitpython-servokit
+
 
 RUN sudo apt-get update && \
     sudo apt-get install -y \
     ros-${ROS_DISTRO}-rmw-cyclonedds-cpp \
-    ros-dev-tools \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
     
@@ -68,4 +70,14 @@ RUN echo "if [ -f /usr/share/bash-completion/completions/git ]; then source /usr
 USER $USERNAME
 # CMD ["/bin/bash"]
 
+# ======================================
+FROM base AS dev
+
+# Install ROS2 development tools:
+RUN sudo apt-get update && \
+    sudo apt-get install -y \
+    ros-dev-tools \
+    sphinx \
+    sphinx-rtd-theme \
+    myst-parser \
 
