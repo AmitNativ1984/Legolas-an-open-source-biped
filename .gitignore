@@ -1,1 +1,6 @@
 .vscode/
+
+# sphinx-build related files
+docs/_build/
+docs/.doctrees/
+docs/_templates/
