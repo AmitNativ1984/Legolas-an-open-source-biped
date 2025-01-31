@@ -23,6 +23,7 @@
 		"--gpus=all",
 		"--runtime=nvidia",
 		"--group-add=116",
+		"--group-add=999"
 
 
 	],

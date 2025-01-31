@@ -2,5 +2,6 @@
 
 # sphinx-build related files
 docs/_build/
+docs/build/
 docs/.doctrees/
 docs/_templates/
