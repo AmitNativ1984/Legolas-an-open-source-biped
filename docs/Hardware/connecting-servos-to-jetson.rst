@@ -72,8 +72,18 @@ Pinout Table
 
          pip install adafruit-circuitpython-pca9685
 
-4. **Write and Run the Control Script:**
-    - Create a Python script to control the servos. Below is an example script, that will control two servos connected to channes 0 and 1 of the PCA9685 board.
+4. **Find the address of the PCA9685 board:**
+    - The PCA9685 board has a default I2C address of `0x40`. However, if you have multiple PCA9685 boards connected to the same I2C bus, you may need to change the address of the board to avoid conflicts.
+    - To find the address of the PCA9685 board, run the following command on the Jetson Orin Nano:
+      
+      .. code-block:: bash
+
+         sudo i2cdetect -y -r 1
+
+    - The output will show the I2C addresses of all devices connected to the I2C bus. Look for the address `0x40` in the output to find the address of the PCA9685 board.
+
+5. **Write and Run the Control Script:**
+   - Below is an example python script, that will control two servos connected to channes 0 and 1 of the PCA9685 board. The script uses a simple PWM frequency of 50 Hz, and moves `servo0` to 90 degrees, and `servo1` to 45 degrees. You can modify the angles and channels to control more servos.
     
    .. code-block:: python
 
