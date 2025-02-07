@@ -1,4 +1,4 @@
-ARG BASE_IMAGE
+ARG BASE_IMAGE=amit-Dell-G15.local:5000/ros2-pytorch:humble-torch2.3.0
 FROM $BASE_IMAGE AS base
 
 ARG ROS_DISTRO=humble
@@ -17,12 +17,6 @@ RUN sudo apt-get update && \
     libi2c-dev \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
     
-RUN pip3 install -U \
-    sphinx \
-    Jetson.GPIO \
-    adafruit-circuitpython-servokit
-
-
 RUN sudo apt-get update && \
     sudo apt-get install -y \
     ros-${ROS_DISTRO}-rmw-cyclonedds-cpp \
@@ -69,7 +63,6 @@ RUN echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> 
 RUN echo "if [ -f /usr/share/bash-completion/completions/git ]; then source /usr/share/bash-completion/completions/git; fi" >> /home/$USERNAME/.bashrc
    
 USER $USERNAME
-# CMD ["/bin/bash"]
 
 # ======================================
 FROM base AS dev
@@ -78,7 +71,12 @@ FROM base AS dev
 RUN sudo apt-get update && \
     sudo apt-get install -y \
     ros-dev-tools \
-    sphinx \
+    python3-sphinx \
+    && sudo rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
+RUN pip3 install \
     sphinx-rtd-theme \
-    myst-parser \
+    myst-parser
+
+    
 
