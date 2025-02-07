@@ -1,1 +1,2 @@
 CAD/* filter=lfs diff=lfs merge=lfs -text
+CAD/** filter=lfs diff=lfs merge=lfs -text
