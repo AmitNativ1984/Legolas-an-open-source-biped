@@ -13,6 +13,7 @@ RUN sudo apt-get update && \
     python3-pip \
     python3-argcomplete \
     bash-completion \
+    git-lfs \
     i2c-tools \
     libi2c-dev \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
@@ -20,6 +21,8 @@ RUN sudo apt-get update && \
 RUN sudo apt-get update && \
     sudo apt-get install -y \
     ros-${ROS_DISTRO}-rmw-cyclonedds-cpp \
+    ros-${ROS_DISTRO}-ros2-control \
+    ros-${ROS_DISTRO}-ros2-controllers \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
     
