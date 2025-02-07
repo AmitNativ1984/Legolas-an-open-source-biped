@@ -9,4 +9,4 @@ docs/_templates/
 # ROS related files
 build/
 install/
-log/
+log/CAD/
