@@ -16,6 +16,7 @@ RUN sudo apt-get update && \
     git-lfs \
     i2c-tools \
     libi2c-dev \
+    libncurses5-dev \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
     
 RUN sudo apt-get update && \
