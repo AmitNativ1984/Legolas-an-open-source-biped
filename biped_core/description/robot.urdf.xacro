@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="legolas_robot">
+
+    <xacro:include filename="$(find biped_core)/description/servo.urdf.xacro" />
+    
+    <xacro:include filename="$(find biped_core)/description/materials.xacro" />
+    
+    <xacro:include filename="$(find biped_core)/description/leg.xacro" />
+
+    <link name="base_link"/>
+    
+    <xacro:position_servo prefix="servo" parent="base_link">
+        <origin xyz="0 0 0" rpy="0 0 0" />
+    </xacro:position_servo>
+
+    <xacro:leg prefix="right_leg" parent="servo_arm_connection_link">
+        <origin xyz="0 0 0" rpy="0 0 0" />
+    </xacro:leg>
+    
+    <xacro:position_servo prefix="servo2" parent="right_leg_connection_link">
+        <origin xyz="0 0 0.01" rpy="1.57 0 0" />
+    </xacro:position_servo>
+
+</robot>

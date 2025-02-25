@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!-- Describing a single and position servo motor -->
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:macro name="leg" params="prefix parent *origin">
+
+        <!-- Joint to Parent -->
+        <joint name="${prefix}_base_joint" type="fixed">
+            <parent link="${parent}"/>
+            <child link="${prefix}_link" />
+            <xacro:insert_block name="origin" />
+        </joint>
+        
+        <!-- Leg Link -->
+        <link name="${prefix}_link">
+            <collision>
+                <origin xyz="0.05 0.015 0.008" rpy="0 0 0"/>
+                <geometry>
+                    <box size="0.05 0.015 0.008"/>
+                </geometry>
+            </collision>
+            <visual>
+                <origin xyz="0.05 0 0.004" rpy="0 0 0"/>
+                <geometry>
+                    <box size="0.1 0.015 0.008"/>
+                </geometry>
+                <material name="white"/>
+            </visual>
+        </link>
+
+        <!-- Leg Joint -->
+        <joint name="${prefix}_joint" type="fixed">
+            <parent link="${prefix}_link"/>
+            <child link="${prefix}_connection_link"/>
+            <origin xyz="0.075 0 0.008" rpy="0 0 0"/>
+            <axis xyz="0 0 1"/>
+            <limit lower="-1.57" upper="2.3" effort="100" velocity="1.0"/>
+        </joint>
+
+        <!-- Leg Connection Link -->
+        <link name="${prefix}_connection_link"/>
+            
+    
+    </xacro:macro>
+</robot>
+
